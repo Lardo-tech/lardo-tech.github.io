@@ -1,0 +1,17 @@
+.main{
+	color: red;
+	text-align: center;
+}
+
+body{
+	background-color: #b8bab9;
+}
+
+nav{	
+	font-family: arial, helvetica, sans-serif;
+	color: red;
+}
+
+img.small{
+	width: 250px;
+}
