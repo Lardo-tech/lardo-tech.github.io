@@ -1,3 +1,6 @@
+html{
+	overflow-y: scroll;
+  }
 .main{
 	color: black;
 	text-align: center;
@@ -42,7 +45,11 @@ aside{
 }
 
 
-ul {
+
+
+
+
+header nav ul, aside ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -50,11 +57,11 @@ ul {
 	background-color: #2b2b2b;
   }
   
-  li {
+header nav li{
 	float: left;
   }
   
-  li a {
+header nav li a, aside li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -62,13 +69,23 @@ ul {
 	text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+header nav li a:hover:not(.active), aside li a:hover:not(.active) {
 	background-color: #3f93f2;
   }
   
-  .active {
+header nav .active, aside .active{
 	background-color: #0c07fa;
   }
+
+
+
+
+
+ 
+
+
+
+
 
   h1{
 	text-align: center;
