@@ -81,6 +81,37 @@ header nav .active, aside .active{
 
 
 
+
+
+
+
+aside ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #555555;
+  }
+
+  aside li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  aside li a:hover:not(.active) {
+	background-color: #3f93f2;
+  }
+  
+ aside .active{
+	background-color: #0c07fa;
+  }
+
+
+
+
  
 
 
@@ -91,3 +122,6 @@ header nav .active, aside .active{
 	text-align: center;
 	color: #ffffff;
   }
+
+  h3{text-align: center;
+	color: black;}
