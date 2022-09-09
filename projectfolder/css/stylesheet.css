@@ -83,7 +83,7 @@ header nav .active, aside .active{
 
 
 
-
+/*
 
 aside ul {
 	list-style-type: none;
@@ -109,10 +109,64 @@ aside ul {
 	background-color: #0c07fa;
   }
 
+*/
 
 
 
+  aside ul {
+	color: #ffffff;
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2b2b2b;
+  }
+
+  aside li {
+	text-align: center;
+  }
  
+  aside li a, .dropbtn {
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+  }
+  
+  aside li a:hover {
+	background-color: #3f93f2;
+  }
+
+  .dropdown:hover .dropbtn {
+	background-color: #0c07fa;
+  }
+
+  aside li.dropdown {
+	display: inline-block;
+  }
+  
+  aside .dropdown-content {
+	display: none;
+	background-color: #555555;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  aside .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+  }
+  
+  aside .dropdown-content a:hover {background-color: #555555;}
+  
+  aside .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
 
 
 
