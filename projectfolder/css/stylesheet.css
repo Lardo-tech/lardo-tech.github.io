@@ -4,11 +4,10 @@ html{
 .main{
 	color: black;
 	text-align: center;
-	background-color: #555555;
 }
 
 body{
-	background-color: #707070;
+	background-image: url(../images/background.jpg);
 }
 
 nav{	
@@ -25,7 +24,7 @@ img.small{
 	width: 30%;
 }
 article{
-	background-color: #707070;
+	background-color: rgb(112, 112, 112, .8);
 	margin-left: 20%;
 }
 header{
@@ -35,7 +34,6 @@ header{
 
 aside{
 	float: left;
-	background-color: #555555;
 	width: 20%;
 }
 
@@ -76,42 +74,6 @@ header nav li a:hover:not(.active), aside li a:hover:not(.active) {
 header nav .active, aside .active{
 	background-color: #0c07fa;
   }
-
-
-
-
-
-
-
-/*
-
-aside ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #555555;
-  }
-
-  aside li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-  }
-  
-  aside li a:hover:not(.active) {
-	background-color: #3f93f2;
-  }
-  
- aside .active{
-	background-color: #0c07fa;
-  }
-
-*/
-
-
 
   aside ul {
 	color: #ffffff;
@@ -179,3 +141,41 @@ aside ul {
 
   h3{text-align: center;
 	color: black;}
+
+
+
+
+	table, th, tr, td{
+		border-collapse: collapse;
+		
+	}
+
+	table{
+		margin-left: auto;
+		margin-right: auto;
+		border: 2px solid black;
+	}
+
+	th{
+		background-color:#555555 ;
+		height: 50px;
+		width: 300px;
+		border: 3px solid black;
+	}
+
+	tr, td{
+		border: 2px solid black;
+	}
+
+	.bezig{
+		background-color: rgb(30, 126, 252, .6) ;
+	}
+	.klaar1{
+		background-color: rgb(30, 252, 71, .6)
+	}
+	.klaar2{
+		background-color: rgb(252, 30, 30, .6) ;
+	}
+	.herkansen{
+		background-color: rgb(252, 252, 30, .6) ;
+	}
