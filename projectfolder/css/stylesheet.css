@@ -18,11 +18,21 @@ nav{
 
 img.medium{
 	width: 75%;
+	border-radius:10px;
 }
 
 img.small{
 	width: 30%;
+	border-radius:10px;
 }
+
+img.small2{
+	width: 300px;
+	height: 200px;
+	border-radius:10px;
+}
+
+
 article{
 	background-color: rgb(112, 112, 112, .8);
 	margin-left: 20%;
@@ -131,16 +141,26 @@ header nav .active, aside .active{
 
 
 
+.left{
+	float: left;
+}
+.center{
+	float: center;
+}
+.right{
+	float: right;
+}
 
 
-
-  h1{
+  h1, h4{
 	text-align: center;
 	color: #ffffff;
   }
 
   h3{text-align: center;
 	color: black;}
+
+
 
 
 
@@ -180,6 +200,45 @@ header nav .active, aside .active{
 		background-color: rgb(252, 252, 30, .6) ;
 	}
 
+
+
+
+
+	.text span {
+		font-size: 40px;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #fff;
+		animation: zoomup 3s ease infinite;
+		animation-delay: calc(100ms * var(--i));
+	  }
+	  
+	  .dot {
+		display: block;
+	  }
+	  
+	  @keyframes zoomup {
+		0%,
+		100% {
+		  color: #0293fa;
+		  filter: blur(0.5px);
+		  text-shadow: 0 0 10px #0293fa, 0 0 20px #0293fa, 0 0 30px #0293fa,
+			0 0 40px #0293fa, 0 0 50px #0293fa, 0 0 60px #0293fa;
+		}
+	  
+		50% {
+		  filter: blur(0);
+		  color: #fff;
+		  text-shadow: none;
+		}
+	  }
+	  
+	  
+	  
+	  
+	
+	
 
 
 
