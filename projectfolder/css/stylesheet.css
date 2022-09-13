@@ -32,6 +32,11 @@ img.small2{
 	border-radius:10px;
 }
 
+img.xsmall{
+	width: 45px;
+	height: 45px;
+}
+
 
 article{
 	background-color: rgb(112, 112, 112, .8);
@@ -46,6 +51,12 @@ aside{
 	float: left;
 	width: 20%;
 }
+
+footer{
+	text-align: center;
+	color: #fff;
+}
+
 
 .logo{
 	width: 15%;
@@ -229,7 +240,7 @@ header nav .active, aside .active{
 	  
 		50% {
 		  filter: blur(0);
-		  color: #fff;
+		  color: black;
 		  text-shadow: none;
 		}
 	  }
