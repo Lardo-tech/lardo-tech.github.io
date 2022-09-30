@@ -23,13 +23,13 @@ img.medium {
 }
 
 img.small {
-	width: 30%;
+	width: 20%;
 	border-radius: 10px;
+	padding: 20px;
 }
 
 img.small2 {
 	width: 300px;
-	height: 200px;
 	border-radius: 10px;
 }
 
@@ -264,3 +264,12 @@ td {
 		text-shadow: none;
 	}
 }
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  .sticky + .content {
+	padding-top: 60px;
+  }
