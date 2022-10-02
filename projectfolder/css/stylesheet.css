@@ -34,7 +34,6 @@ aside {
 }
 footer {
 	text-align: center;
-	font-family: arial, helvetica, sans-serif;
 	color: #fff;
 	padding: 50px;
 }
@@ -65,6 +64,12 @@ img.xsmall {
 }
 .logo {
 	width: 15%;
+	float: right;
+}
+.left {
+	float: left;
+}
+.right {
 	float: right;
 }
 
@@ -272,7 +277,7 @@ td {
 .card1 p {
 	font-family: sans-serif;
 }
-.card-container, .card-container2, .card-container3 {
+.card-container, .card-container2, .card-container3, .card-container4 {
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: repeat(3, 1fr);
@@ -285,4 +290,8 @@ td {
 .card-container3 {
 	max-width: 900px;
 	padding-left: 475px;
+}
+.card-container4 {
+	max-width: 900px;
+	padding-left: 530px;
 }
