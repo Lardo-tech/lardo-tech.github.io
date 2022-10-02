@@ -1,86 +1,97 @@
+/* -------- HTML layout -------- */
+
 html {
 	overflow-y: scroll;
 }
-
 .main {
 	color: black;
 	text-align: center;
 }
-
 body {
 	background-image: url(../images/background.jpg);
 }
-
 nav {
 	font-family: arial, helvetica, sans-serif;
 	color: rgb(200, 255, 0);
 	margin-left: 0%;
 }
+article {
+	background-color: rgb(112, 112, 112, .8);
+	font-family: arial, helvetica, sans-serif;
+	margin-left: 20%;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+header {
+	margin-left: 20%;
+	font-family: arial, helvetica, sans-serif;
+	background-color: #2b2b2b;
+}
+aside {
+	float: left;
+	font-family: arial, helvetica, sans-serif;
+	width: 20%;
+}
+footer {
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+	color: #fff;
+	padding: 50px;
+}
+
+/* -------- foto elements -------- */
 
 img.medium {
 	width: 75%;
 	border-radius: 10px;
 }
-img.medium2 {
+img.large {
 	width: 100%;
 	border-radius: 10px;
 }
-
 img.small {
 	width: 20%;
 	border-radius: 10px;
 	padding: 20px;
 }
-img.small-left {
-	float: left;
-	width: 35%;
-	margin-left: 100px;
-}
-img.small-right {
-	float: right;
-	width: 35%;
-	margin-right: 100px;
-}
-
 img.small2 {
 	width: 300px;
 	border-radius: 10px;
 }
-
 img.xsmall {
 	width: 45px;
 	height: 45px;
 	border-radius: 10px;
 }
-
-
-article {
-	background-color: rgb(112, 112, 112, .8);
-	margin-left: 20%;
-	padding-top: 20px;
-	padding-bottom: 100px;
-}
-
-header {
-	margin-left: 20%;
-	background-color: #2b2b2b;
-}
-
-aside {
-	float: left;
-	width: 20%;
-}
-
-footer {
-	text-align: center;
-	color: #fff;
-	padding: 50px;
-}
-
 .logo {
 	width: 15%;
 	float: right;
 }
+
+/* -------- text elements -------- */
+
+p{
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+}
+h1,
+h4 {
+	text-align: center;
+	color: #ffffff;
+	font-family: arial, helvetica, sans-serif;
+}
+h3, h2 {
+	text-align: center;
+	color: black;
+	font-family: arial, helvetica, sans-serif;
+}
+.center {
+	float: center;
+	text-align: center;
+	margin-right: 30px;
+}
+  
+/* -------- menu balk header -------- */
 
 header nav ul,
 aside ul {
@@ -90,11 +101,9 @@ aside ul {
 	overflow: hidden;
 	background-color: #2b2b2b;
 }
-
 header nav li {
 	float: left;
 }
-
 header nav li a,
 aside li a {
 	display: block;
@@ -103,7 +112,6 @@ aside li a {
 	padding: 14px 16px;
 	text-decoration: none;
 }
-
 header nav li a:hover:not(.active),
 aside li a:hover:not(.active) {
 	background-color: #3f93f2;
@@ -114,6 +122,8 @@ aside .active {
 	background-color: #0c07fa;
 }
 
+/* -------- aside menu -------- */
+
 aside ul {
 	color: #ffffff;
 	text-align: center;
@@ -123,30 +133,24 @@ aside ul {
 	overflow: hidden;
 	background-color: #2b2b2b;
 }
-
 aside li {
 	text-align: center;
 }
-
 aside li a,
 .dropbtn {
 	display: inline-block;
 	text-align: center;
 	padding: 14px 16px;
 }
-
 aside li a:hover {
 	background-color: #3f93f2;
 }
-
 .dropdown:hover .dropbtn {
 	background-color: #0c07fa;
 }
-
 aside li.dropdown {
 	display: inline-block;
 }
-
 aside .dropdown-content {
 	display: none;
 	background-color: #555555;
@@ -154,7 +158,6 @@ aside .dropdown-content {
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
 }
-
 aside .dropdown-content a {
 	color: black;
 	padding: 12px 16px;
@@ -162,41 +165,14 @@ aside .dropdown-content a {
 	display: block;
 	text-align: center;
 }
-
 aside .dropdown-content a:hover {
 	background-color: #555555;
 }
-
 aside .dropdown:hover .dropdown-content {
 	display: block;
 }
 
-.left {
-	float: left;
-}
-
-.center {
-	float: center;
-	text-align: center;
-	margin-right: 30px;
-}
-
-.right {
-	float: right;
-}
-
-h1,
-h4 {
-	text-align: center;
-	color: #ffffff;
-	font-family: sans-serif;
-}
-
-h3, h2 {
-	text-align: center;
-	color: black;
-	font-family: sans-serif;
-}
+/* -------- button elements -------- */
 
 button {
 	margin-right: 1250px;
@@ -205,10 +181,11 @@ button {
 	border-radius: 10px;
 	border: 1px solid black;
 }
-
 button:hover {
 	background-color: #3f93f2;
 }
+
+/* -------- table elements -------- */
 
 table,
 th,
@@ -217,33 +194,30 @@ td {
 	border-collapse: collapse;
 
 }
-
 table {
 	margin-left: auto;
 	margin-right: auto;
 	border: 2px solid black;
 }
-
 th {
 	background-color: #555555;
 	height: 50px;
 	width: 200px;
 	border: 3px solid black;
 }
-
 tr,
 td {
 	border: 2px solid black;
 }
 
+/* -------- kleuren table -------- */
+
 .bezig {
 	background-color: rgb(30, 126, 252, .6);
 }
-
 .klaar1 {
 	background-color: rgb(30, 252, 71, .6)
 }
-
 .klaar2 {
 	background-color: rgb(252, 30, 30, .6);
 }
@@ -251,6 +225,8 @@ td {
 .herkansen {
 	background-color: rgb(252, 252, 30, .6);
 }
+
+/* -------- HOME animatie elements -------- */
 
 .text span {
 	font-size: 40px;
@@ -261,11 +237,9 @@ td {
 	animation: zoomup 3s ease infinite;
 	animation-delay: calc(100ms * var(--i));
 }
-
 .dot {
 	display: block;
 }
-
 @keyframes zoomup {
 
 	0%,
@@ -283,40 +257,32 @@ td {
 	}
 }
 
+/* -------- grid cards elements -------- */
 
 .card1 {
 	background-color: #828282;
 	color: black;
 	width: 400px;
 	border-radius: 10px;
-  }
-  
-  .card-container {
+}
+.card-container {
 	max-width: 900px;
 	padding-left: 350px;
-  }
-  
-  .card1 p {
+}
+.card1 p {
 	font-family: sans-serif;
-  }
-  
-  .card-container, .card-container2, .card-container3 {
+}
+.card-container, .card-container2, .card-container3 {
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: repeat(3, 1fr);
 	margin-top: 40px;
-  }
-
-  .card-container2 {
+}
+.card-container2 {
 	max-width: 900px;
 	padding-left: 225px;
-  }
-  .card-container3 {
+}
+.card-container3 {
 	max-width: 900px;
 	padding-left: 475px;
-  }
-p{
-	text-align: center;
-	font-family: sans-serif;
 }
-  
