@@ -295,3 +295,17 @@ td {
 	max-width: 900px;
 	padding-left: 530px;
 }
+
+/* -------- grid cards elements -------- */
+
+.faq {
+	height: 50px;
+	text-align: center;
+	transition: 0.5s;
+	overflow: hidden;
+  }
+  .faq:hover {
+	height: 180px;
+  }
+  
+  
