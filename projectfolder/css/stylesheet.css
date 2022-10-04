@@ -274,6 +274,12 @@ td {
 	width: 400px;
 	border-radius: 10px;
 }
+.card2 {
+	background-color: #828282;
+	color: black;
+	width: 800px;
+	border-radius: 10px;
+}
 .card-container {
 	max-width: 900px;
 	padding-left: 350px;
@@ -281,7 +287,11 @@ td {
 .card1 p {
 	font-family: sans-serif;
 }
-.card-container, .card-container2, .card-container3, .card-container4 {
+.card-container, 
+.card-container2, 
+.card-container3, 
+.card-container4, 
+.card-container5 {
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: repeat(3, 1fr);
@@ -299,25 +309,29 @@ td {
 	max-width: 900px;
 	padding-left: 530px;
 }
+.card-container5 {
+	max-width: 900px;
+	padding-left: 275px;
+}
 
 /* -------- uitklap elements -------- */
 
-.faq {
+.uitklap1 {
 	height: 50px;
 	text-align: center;
 	transition: 0.5s;
 	overflow: hidden;
   }
-  .faq:hover {
+  .uitklap1:hover {
 	height: 180px;
   }
-  .faq2 {
+  .uitklap2 {
 	height: 175px;
 	text-align: center;
 	transition: 0.5s;
 	overflow: hidden;
   }
-  .faq2:hover {
+  .uitklap2:hover {
 	height: 700px;
   }
   
